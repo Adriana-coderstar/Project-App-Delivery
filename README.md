@@ -2,13 +2,6 @@
 
 Nesse projeto em grupo desenvolvemos uma plataforma de Delivery de cerveja, onde integramos tanto o back-end quanto o front-end.
 
-### Equipe de Desenvolvimento
-- [Adriana Martins de Souza](https://www.linkedin.com/in/adriana-ms/)
-- [Camilla Del Guerso](https://www.linkedin.com/in/camilla-del-guerso/)
-- [Daniel Custódio](https://www.linkedin.com/in/danielscustodio/)
-- [Emmanuel Rodrigues](https://www.linkedin.com/in/emmanuel-rodrigues-906ab91ba/)
-- [João Victor Paduam](https://www.linkedin.com/in/joaovictorpaduam/)
-
 O aplicativo compõe:
 
 - acesso via login: tanto clientes como pessoas vendedoras e administradores, teêm acesso ao aplicativo via login cada um com suas respectivas responsabilidades.
@@ -17,8 +10,23 @@ O aplicativo compõe:
 
 - Se a pessoa cliente faz o pedido, o mesmo deve aparecer para a pessoa vendedora em seu dash de pedidos após a atualização da página. A pessoa cliente, por sua vez, deve ter as informações sobre seu pedido quando sua página for atualizada, ou seja, ter informações se o pedido está sendo preparado ou se já saiu pra entrega;
 
+<details>
+  <summary>
+    <strong> 👩‍💻 👨‍💻 Equipe de Desenvolvimento:</strong>
+  </summary><br>
+  
+- [Adriana Martins de Souza](https://www.linkedin.com/in/adriana-ms/)
+- [Camilla Del Guerso](https://www.linkedin.com/in/camilla-del-guerso/)
+- [Daniel Custódio](https://www.linkedin.com/in/danielscustodio/)
+- [Emmanuel Rodrigues](https://www.linkedin.com/in/emmanuel-rodrigues-906ab91ba/)
+- [João Victor Paduam](https://www.linkedin.com/in/joaovictorpaduam/)
+</details>
 
-### :rocket: Tecnologias usadas no projeto:
+<details>
+  <summary>
+    <strong> :rocket: Tecnologias usadas no projeto:</strong>
+  </summary><br>
+  
 ### Front-end:
 >
 - CSS - Estilização feito pelo Desenvolvedor [Daniel Custódio](https://www.linkedin.com/in/danielscustodio/)
@@ -34,8 +42,8 @@ O aplicativo compõe:
 - Sequelize
 - Express
 - JWT
-- Biblioteca md5 para criptografia
-
+- Biblioteca md5 para criptografia  
+</details>
 
 <details>
   <summary>
@@ -79,6 +87,21 @@ O aplicativo compõe:
 
   - `test:dev:report "<nomes-dos-arquivos>"`: Roda todos os testes (ou uma parte deles caso `"<nomes-dos-arquivos>"` seja definido) utilizando o **banco de dados de desenvolvimento** (final `-dev`). Esse teste devolve um output em texto com o resultado de todos os testes. Os `logs` são gerados em `./__tests__/reports`.
     - *uso (na raiz do projeto): `npm run test:dev:report`, `npm run test:dev:report "01login 02register"` ou ainda `npm run test:dev:report "01 02"`*;
+</details>
+  
+<details>
+  <summary>
+    <strong> :mag: Observações:</strong>
+  </summary><br>
+    
+      Back-End: 
+      - Inserir as informações para configuração com banco de dados no arquivo .env conforme o exemplo ".env.exemplo"
+      - Para executar o back-end executar o comando `npm start` no terminal
+    
+      Front-End:
+      - Executar o comando `npm start`no terminal para rodar aplicação.
+    
+  
 </details>
   
   <img src="./assets/readme/app-delivery.gif" />
