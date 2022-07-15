@@ -19,7 +19,7 @@ O aplicativo compõe:
 
 
 ### :rocket: Tecnologias usadas no projeto:
-Front-end:
+### Front-end:
 >
 - CSS - Estilização feito pelo Desenvolvedor [Daniel Custódio](https://www.linkedin.com/in/danielscustodio/)
 - React.js
@@ -27,8 +27,8 @@ Front-end:
 - React hooks
 - Axios para requisição de API
 
-Back-end:
-> 
+### Back-end:
+
 - Nodejs
 - MySql
 - Sequelize
