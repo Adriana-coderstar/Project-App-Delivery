@@ -1,0 +1,52 @@
+.container-page-login {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 1rem;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.container-page-login__items {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.container-page-login__card {
+  align-items: center;
+  background: rgba(245, 245, 245, 0.199);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 1.8rem;
+}
+
+.container-page-login__title {
+  color: #222;
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.container-page-login__logo {
+  width: 50%;
+}
+
+.register-title {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+@media screen and ( max-width : 540px ) {
+
+  .container-page-login__title {
+    display: none;
+  }
+
+}
+

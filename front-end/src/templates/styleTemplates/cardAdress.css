@@ -1,0 +1,86 @@
+.container-card-adress {
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.container-card-adress__title {
+  text-align: center;
+}
+
+.container-card-adress__span {
+  font-size: 0.8rem;
+}
+
+.container-card-adress__card-infos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-infos__item {
+  font-family: Poppins , sans-serif , Arial , Helvetica;
+  height: 2rem;
+}
+
+.card-adress__seller {
+  height: 2.4rem;
+}
+
+.container-card-adress__button {
+  background-color: #edb831ce;
+  font-weight: 800;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+.container-card-adress__button:disabled {
+  cursor: not-allowed;
+}
+
+.container-card-adress__button:hover:enabled {
+  background-color: #edb831;
+  cursor: pointer;
+}
+
+
+@media only screen and ( min-width : 1200px ) {
+
+  .container-card-adress {
+    border: 1px solid #222;
+    width: 60%;
+  }
+
+  .card-infos__item {
+    margin-right: 1rem;
+  }
+
+  .card-adress__adress {
+    width: 150%;
+  }
+
+  .card-adress__number {
+    margin-left: 45%;
+    width: 50%;
+  }
+
+}
+
+@media screen and ( max-width : 720px ) {
+
+  .container-card-adress {
+    width: 90%;
+  }
+
+  .container-card-adress__title {
+    font-size: 1rem;
+  }
+
+  .card-infos__item {
+    margin-top: 1.2rem;
+  }
+
+}
+

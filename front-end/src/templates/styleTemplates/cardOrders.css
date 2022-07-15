@@ -1,0 +1,20 @@
+.card-orders {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5rem;
+  overflow: hidden;
+  width: 90vw;
+}
+
+
+@media screen and ( max-width : 897px ) {
+
+  .card-orders {
+    margin-top: 8rem;
+    width: 90vw;
+  }
+
+}

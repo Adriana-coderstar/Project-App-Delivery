@@ -1,0 +1,17 @@
+.container-page-products {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.product-card-container__card {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4rem;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 90vw;
+}
+

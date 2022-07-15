@@ -1,0 +1,27 @@
+.container-banner {
+  align-items: center;
+  background-color: #333;
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+  width: 100vw;
+}
+
+.container-banner h2 {
+  color: #edb831;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+
+@media screen and ( max-width : 540px ) {
+
+  .container-banner h2 {
+    font-size: 1rem;
+  }
+
+}

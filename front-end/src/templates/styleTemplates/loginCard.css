@@ -1,0 +1,67 @@
+.login-card {
+  align-items: flex-start;
+  background-color: #222;
+  border-radius: 4px;
+  box-shadow: rgba(44, 48, 45, 0.712) 0 1px 7px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  justify-content: space-around;
+  padding: 1rem;
+  transform: translateY(0);
+  transition: 0.5s;
+  width: 18rem;
+}
+
+.text-input__login {
+  border-radius: 4px;
+  font-weight: 300;
+  height: 2.8rem;
+  width: 100%;
+}
+
+.login-card:hover {
+  box-shadow: rgba(64, 65, 64, 0.712) 0 1px 70px;
+  transform: translateY(-10px);
+}
+
+.button__login {
+  border: 1px solid #222;
+  border-radius: 4px;
+  height: 2.8rem;
+  width: 100%;
+}
+
+.button__login--acess {
+  background-color: #edb831ce;
+  margin-top: 1rem;
+}
+
+.button__login--register {
+  background-color: white;
+  color: black;
+}
+
+
+.button__login--acess:hover {
+  background-color: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button__login--acess:disabled {
+  color: #222;
+  cursor: not-allowed;
+}
+
+.button__login--acess:hover:enabled {
+  background-color: #edb831;
+  color: #222;
+}
+
+.button__login--register:hover {
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+

@@ -1,0 +1,8 @@
+.text-input {
+  border: 1px solid rgb(182, 182, 182);
+  box-shadow: rgba(0, 0, 0, 0.35) 0 px 7px;
+  box-sizing: border-box;
+  font-family: Poppins , sans-serif , Arial , Helvetica;
+  font-size: 1.22em;
+}
+

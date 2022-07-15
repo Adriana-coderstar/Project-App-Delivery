@@ -1,0 +1,209 @@
+/* stylelint-disable selector-max-specificity */
+.header {
+  background-color: rgb(51, 51, 51);
+  box-shadow: rgb(133, 131, 131) 0 px 15px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.header-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 7vh;
+  justify-content: space-between;
+}
+
+.header-nav__items {
+  align-items: center;
+  display: flex;
+  font-weight: 400;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header-nav__link {
+  margin: 0;
+  text-decoration: none;
+}
+
+.header-nav__link--products {
+  border-right: 1px solid #edb831;
+  color: rgb(212, 212, 212);
+  flex-grow: 6;
+}
+
+.header-nav__link--orders {
+  border-right: 1px solid #edb831;
+  color: white;
+  flex-grow: 6;
+}
+
+.header-nav__name {
+  color: #edb831;
+  flex-grow: 1;
+  margin: 0;
+  text-transform: capitalize;
+
+}
+
+.header-nav__buton {
+  background-color: #edb831;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  flex-grow: 1;
+  text-transform: capitalize;
+}
+
+.header-nav__link--products:hover, .header-nav__link--orders:hover {
+  background-color: #edb831;
+  color: #222;
+}
+
+.header-nav__buton:hover {
+  background-color: #edb831ce;
+  color: #222;
+}
+
+#react-burger-menu-btn {
+  display: none;
+}
+
+.bm-burger-button {
+  height: 30px;
+  left: 50%;
+  position: fixed;
+  top: 2%;
+  transform: translateX(-50%);
+  width: 60px;
+}
+
+
+.bm-burger-bars-hover {
+  display: none;
+}
+
+.bm-cross {
+  background: rgb(184, 36, 36);
+}
+
+.bm-menu {
+  background: #edb831;
+  font-size: 1.6em;
+}
+
+.bm-item-list {
+  color: #222;
+  padding: 1em;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+.item-hamburguer {
+  color: #222;
+  font-weight: 800;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.item-hamburguer__name {
+  font-size: 1rem;
+}
+
+.item-hamburguer__button {
+  background-color: #222;
+  border-radius: 4px;
+  color: aliceblue;
+  left: 50%;
+  margin-top: 5rem;
+  padding: 1rem;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 180px;
+}
+
+.hedader-title {
+  display: none;
+}
+
+.container-page-products__total-price {
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.total-price__img {
+  width: 20%;
+}
+
+.total-price__button {
+  background-color: rgb(51, 51, 51);
+  border: 0;
+  color: #edb831;
+  font-family: Poppins , sans-serif , Arial , Helvetica;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.total-price__button:disabled {
+  cursor: not-allowed;
+}
+
+.total-price__button:enabled {
+  cursor: pointer;
+}
+
+
+@media screen and ( max-width : 540px ) {
+
+  .header-nav__items {
+    display: none;
+  }
+
+  .bm-burger-bars {
+    background: #edb831;
+  }
+
+  .hedader-title {
+    color: aliceblue;
+    display: block;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .header-nav {
+    height: 5vh;
+  }
+
+  .bm-burger-bars-hover {
+    background: #edb831ce;
+    display: block;
+  }
+
+  #react-burger-menu-btn {
+    display: block;
+  }
+
+  .total-price__img {
+    display: none;
+  }
+
+  .total-price__button {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 2rem;
+  }
+}
+

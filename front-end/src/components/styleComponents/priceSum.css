@@ -1,0 +1,30 @@
+.container-pricesum {
+  margin: auto;
+  margin-top: 3rem;
+  text-align: right;
+}
+
+.container-pricesum__item {
+  background-color: #edb831;
+  color: #222;
+  display: inline;
+  font-weight: 800;
+  padding: 1rem 2rem;
+}
+
+
+@media only screen and ( min-width : 1200px ) {
+
+  .container-pricesum {
+    width: 60%;
+  }
+}
+
+@media screen and ( max-width : 720px ) {
+
+  .container-pricesum {
+    text-align: center;
+    width: 80%;
+  }
+}
+
