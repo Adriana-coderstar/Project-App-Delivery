@@ -93,9 +93,9 @@ O aplicativo compõe:
   <summary>
     <strong> :mag: Observações:</strong>
   </summary><br>
-      Primeiros Passos:  
-        - Na pasta Back-end Inserir as informações para configuração com banco de dados no arquivo .env 
-          conforme o exemplo ".env.exemplo"
+      Primeiros Passos:
+  
+        - Na pasta Back-end Inserir as informações para configuração com banco de dados no arquivo .env conforme o exemplo ".env.exemplo"
   
         - Executar o comando `npm run dev:prestart` a partir da raiz do projeto para instalar as dependências 
   
